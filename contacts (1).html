@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Райський Сад - Контакти</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Агентство нерухомості "Райський Сад"</h1>
+        <p>Ваш спокій — наша турбота</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="services.html">Послуги</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Контакти</h2>
+        <p>Телефони:</p>
+        <ul>
+            <li>06374998868</li>
+            <li>0674464705</li>
+        </ul>
+        <p>Email: info@raiskysad.com</p>
+        <h2>Зворотний зв'язок</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="subject">Тема:</label>
+            <input type="text" id="subject" name="subject" required>
+            <br>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required minlength="10"></textarea>
+            <br>
+            <button type="submit">Надіслати</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Райський Сад. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
